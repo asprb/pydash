@@ -1,0 +1,6 @@
+.vscode/
+venv/
+tests/
+.dockerignore
+.gitignore
+.git/

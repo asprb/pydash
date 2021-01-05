@@ -1,0 +1,6 @@
+#dash {
+    display: grid contents;
+    margin: 2%;
+    grid-gap: 1% 2%;
+    align-content: center;
+}

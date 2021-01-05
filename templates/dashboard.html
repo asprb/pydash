@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=yes">
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.9.0/brython.min.js"/>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/brython@3.9.0/brython_stdlib.js"/>
+
+    <link href="/static/css/main.css" rel="stylesheet">
+
+    <title>Dashboard</title>
+</head>
+
+<body onload="brython()" id="dash">
+    <script type="text/python" src="static/py/generate_dash.py">gen_dash()</script>
+</body>
+</html>
